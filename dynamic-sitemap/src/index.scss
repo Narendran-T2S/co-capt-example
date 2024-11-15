@@ -1,0 +1,116 @@
+/** Global **/
+* {padding: 0;margin: 0;box-sizing: border-box;}
+:root {
+    --primaryColor: #cc171a;
+    --lightPrimaryColor: #e3a6a6;
+    --buttonColor: #ed515c;
+    --fontFamily: 'Lato', sans-serif;
+    --lightColor: #fff;
+    --bodyBackgroundColor: #F7F7F7;
+    --fieldFocusColor: #1a8ebd
+}
+body {
+    font-size: 15px;
+    font-family: var(--fontFamily);
+    font-weight: 300;
+    background-color: var(--bodyBackgroundColor);
+    -webkit-text-size-adjust: 100%;
+}
+
+/** Helper Classes **/
+.container {max-width: 1200px; margin: 0 auto;}
+.textCenter {text-align: center;}
+.textUpperCase {text-transform: uppercase;}
+.dFlex {display: flex;}
+.flexCenter {align-items: center;justify-content: center;}
+.fhGiftCardApp {overflow-x: hidden;}
+
+/** Button **/
+.header {
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0px 6px 8px -4px rgba(0, 0, 0, 0.15);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    letter-spacing: 0.7px;
+}
+.main {
+    padding: 25px 20px;
+}
+
+/** Button **/
+.btn {
+    background: var(--buttonColor);
+    border: 0 none;
+    box-shadow: none;
+    border-radius: 4px;
+    font-family: var(--fontFamily);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--lightColor);
+    cursor: pointer;
+    -webkit-appearance: none;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    transition: 0.2s;
+    position: relative;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    .spinner {
+        display: none;
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        left: 50%;
+        top: 8px;
+        border-left-color: rgba(255, 255, 255, 0.2);
+        border-top-color: rgba(255, 255, 255, 0.2);
+        animation: spinner 0.6s linear infinite;
+    }
+    &.loading {
+        background: #f38890;
+        pointer-events: none;
+        .spinner {
+            display: block;
+        }
+        .text {
+            opacity: 0;
+        }
+    }
+}
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media (hover: hover) {
+    .btn {
+        &:hover {
+            background: #dd404b;
+            box-shadow: 0 4px 0 #ad242e;
+            transform: translateY(-2px);
+        }
+        &:active {
+            background: var(--buttonColor);
+            box-shadow: 0 0 0 #ad242e;
+            transform: translateY(2px);
+            transition: 0s;
+        }
+    }
+}
+.success-result {
+    padding: 10px;
+    background: #499551;
+    color: #fff;
+    margin: 20px 10px;
+    border-radius: 4px;
+}

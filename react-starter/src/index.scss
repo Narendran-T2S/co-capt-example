@@ -1,0 +1,26 @@
+/** Global **/
+* {padding: 0;margin: 0;box-sizing: border-box;}
+:root {
+    --primaryColor: #cc171a;
+    --lightPrimaryColor: #e3a6a6;
+    --buttonColor: #ed515c;
+    --fontFamily: 'Lato', sans-serif;
+    --lightColor: #fff;
+    --bodyBackgroundColor: #F7F7F7;
+    --fieldFocusColor: #1a8ebd
+}
+body {
+    font-size: 15px;
+    font-family: var(--fontFamily);
+    font-weight: 300;
+    background-color: var(--bodyBackgroundColor);
+    -webkit-text-size-adjust: 100%;
+}
+
+/** Helper Classes **/
+.container {max-width: 1200px; margin: 0 auto;}
+.textCenter {text-align: center;}
+.textUpperCase {text-transform: uppercase;}
+.dFlex {display: flex;}
+.flexCenter {align-items: center;justify-content: center;}
+.fhGiftCardApp {overflow-x: hidden;}

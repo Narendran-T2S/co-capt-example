@@ -1,0 +1,188 @@
+{
+    "FH_UK": {
+        "id": 2465,
+        "store_id": 794891,
+        "name": "FOODHUB",
+        "domain": "foodhub.co.uk"
+    },
+    "FH_USA": {
+        "id": 2461,
+        "store_id": 852291,
+        "name": "FOODHUB USA LIVE",
+        "domain": "foodhub.com"
+    },
+    "FH_AUS": {
+        "id": 2459,
+        "store_id": 852235,
+        "name": "FOODHUB AUS",
+        "domain": "foodhub.com.au"
+    },
+    "FH_NZ": {
+        "id": 2460,
+        "store_id": 852289,
+        "name": "FOODHUB NZ",
+        "domain": "food-hub.nz"
+    },
+    "FH_IRE": {
+        "id": 2462,
+        "store_id": 852293,
+        "name": "FOODHUB IRE",
+        "domain": "food-hub.ie"
+    },
+    "Bigfoodie": {
+        "id": 26,
+        "store_id": 802548,
+        "name": "BIGFOODIE",
+        "domain": "bigfoodie.co.uk"
+    },
+    "Eatappy": {
+        "id": 2659,
+        "store_id": 868096,
+        "name": "eatappy.com.au",
+        "domain": "eatappy.com.au"
+    },
+    "Yogo": {
+        "id": 2479,
+        "store_id": 857194,
+        "name": "Yogo",
+        "domain": "yogo.gd"
+    },
+    "BagelEmporium": {
+        "id": 2669,
+        "store_id": 868365,
+        "name": "Bagel Emporium",
+        "domain": "bagelemporium.orders2me.com"
+    },
+    "AsadHotChicken": {
+        "id": 2749,
+        "store_id": 872845,
+        "name": "Asad's Hot Chicken",
+        "domain": "asads.com"
+    },
+    "Orders2me": {
+        "id": 2554,
+        "store_id": 862487,
+        "name": "Orders2me",
+        "domain": "orders2me.com"
+    },
+    "TigerBite": {
+        "id": 25,
+        "store_id": 845054,
+        "name": "Tiger Bite",
+        "domain": "tigerbiteonline.co.uk"
+    },
+    "GelatoFusion": {
+        "id": 2456,
+        "store_id": 850521,
+        "name": "Gelato fusion",
+        "domain": "gelatofusiononline.co.uk"
+    },
+    "BurgerBiteOffcial": {
+        "id": 2585,
+        "store_id": 865464,
+        "name": "Burger Bite Offcial",
+        "domain": "burgerbiteonline.com"
+    },
+    "GetKosher": {
+        "id": 2670,
+        "store_id": 868376,
+        "name": "Get Kosher",
+        "domain": "getkoshergy-23484.com"
+    },
+    "BrrgrrCo": {
+        "id": 2594,
+        "store_id": 866101,
+        "name": "BrrgrrCo",
+        "domain": "brrgrrco.com"
+    },
+    "WingVille": {
+        "id": 2529,
+        "store_id": 860948,
+        "name": "Wing Ville",
+        "domain": "wingvilleonline.com"
+    },
+    "HoleintheWall": {
+        "id": 11,
+        "store_id": 824256,
+        "name": "Hole in the Wall",
+        "domain": "holeinthewallorder.co.uk"
+    },
+    "3For10PIzza": {
+        "id": 7,
+        "store_id": 823707,
+        "name": "3 For 10 PIzza",
+        "domain": "3for10pizzalocation.co.uk"
+    },
+    "loschicos": {
+        "id": 12,
+        "store_id": 825100,
+        "name": "loschicos",
+        "domain": "loschicosonline.co.uk"
+    },
+    "MooLab": {
+        "id": 14,
+        "store_id": 826437,
+        "name": "Moo Lab",
+        "domain": "moolabonline.co.uk"
+    },
+    "PapasAlsager": {
+        "id": 17,
+        "store_id": 829249,
+        "name": "Papas Alsager",
+        "domain": "papas-alsager.co.uk"
+    },
+    "vikingCafe": {
+        "id": 18,
+        "store_id": 829255,
+        "name": "viking Cafe",
+        "domain": "viking-cafe.co.uk"
+    },
+    "Foodgital": {
+        "id": 2484,
+        "store_id": 857930,
+        "name": "Foodgital",
+        "domain": "foodgital.com"
+    },
+    "Scooperb": {
+        "id": 4,
+        "store_id": 819199,
+        "name": "Scooperb",
+        "domain": "scooperbonline.co.uk"
+    },
+    "Chesters": {
+        "id": 15,
+        "store_id": 826675,
+        "name": "Chesters",
+        "domain": "chestersonline.com"
+    },
+    "SHINGLECREEK": {
+        "id": 2480,
+        "store_id": 857362,
+        "name": "SHINGLE CREEK",
+        "domain": "shinglecreek.t2sonline.com"
+    },
+    "TopNosh": {
+        "id": 23,
+        "store_id": 834514,
+        "name": "Top Nosh",
+        "domain": "top-nosh.co.uk"
+    },
+    "Manjaros": {
+        "id": 10,
+        "store_id": 823727,
+        "name": "Manjaros",
+        "domain": "manjarosonline.co.uk"
+    },
+    "Aladdins": {
+        "id": 5,
+        "store_id": 819723,
+        "name": "Aladdins",
+        "domain": "aladdinsorder.com"
+    },
+    "Quiltrip": {
+        "id": 2808,
+        "store_id": 874527,
+        "name": "Quiltrip",
+        "domain": "qttrips.com"
+    }
+}
