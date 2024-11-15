@@ -33,7 +33,7 @@ const Home = () => {
       try {
         console.log(`Processing sitemap for franchise ${franchiseId}`);
         const result = await dynamicSitemapApiCall(franchiseId); // Wait for the API call to complete
-        setSuccessMessages([...successMessages, {franchiseId, result}]);
+        setSuccessMessages((prevResults) => [...prevResults, { franchiseId, result }]);
         setTimeout(()=>{
           console.log(`Result for sitemap of franchise ${franchiseId}:`, result); // Log the result for each item
         }, 1000);
